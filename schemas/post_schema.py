@@ -1,0 +1,15 @@
+post_schema = {
+    "type": "object",
+    "properties": {
+        "title" : {"type":"string"},
+        "body" : {"type":"string"},
+        "userId" : {"type":"integer"},
+        "id" : {"type":"integer"}
+    },
+    "required" : [
+        "title",
+        "body",
+        "userId",
+        "id"
+        ]
+}
